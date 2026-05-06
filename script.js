@@ -17,7 +17,7 @@ let nickname = '';
 submitName.addEventListener('click', () => {
   nickname = nicknameInput.value.trim();
   if (!nickname) {
-	alert('Isi dulu nama panggilan kamu dong 😳');
+	alert('Isi dulu harus maapin dong aaaa');
 	return;
   }
 
@@ -25,7 +25,7 @@ submitName.addEventListener('click', () => {
   apologyCard.style.display = 'block';
 
   const apologyTitle = apologyCard.querySelector('h1');
-  apologyTitle.textContent = `${nickname}, aku minta maaf 🥺💖`;
+  apologyTitle.textContent = `Gisyaaa, aku minta maaf cantik🥺`;
 
   apologyText.innerHTML = `Aku gak bermaksud bikin kamu kesel.<br>Maafin aku, ya? 😢`;
 });
@@ -41,7 +41,7 @@ noBtn.addEventListener('click', () => {
 
 yesBtn.addEventListener('click', () => {
   popup.classList.add('active');
-  popupTitle.textContent = `Makasih ya, ${nickname} 💕`;
+  popupTitle.textContent = `Makasih ya, gisyaaaa`;
   popupMsg.textContent = `Aku janji gak bakal bikin kamu kesel lagi 🥺✨`;
   generateHearts();
   setTimeout(() => {
